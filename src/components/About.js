@@ -12,6 +12,7 @@ import Tech from '../Images/tech.png';
 import Techg from '../Images/techgirl.png';
 import User from '../Images/user.png';
 import Unsplash from '../Images/unsplash.png';
+import Education from '../Images/education.png';
 import '../styles/About.css';
 
 const About = () => (
@@ -78,6 +79,7 @@ const About = () => (
         <Col md={6}>
           <Card>
             <Card.Body>
+                <Card.Img variant="top" src={Education} alt="Image" />
               <Card.Title>Card 1</Card.Title>
               <Card.Text>Some text for Card 1.</Card.Text>
             </Card.Body>
