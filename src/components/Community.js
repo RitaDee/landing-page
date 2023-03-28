@@ -1,5 +1,6 @@
 import React from 'react';
 import Comm from '../Images/community.png';
+import '../styles/Community.css';
 
 const Community = () => (
   <>
