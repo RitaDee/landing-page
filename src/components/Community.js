@@ -3,8 +3,8 @@ import Comm from '../Images/community.png';
 
 const Community = () => (
   <>
-    <div>
-      <h2>community.png</h2>
+    <div className="community-container">
+      <span>JOIN OUR COMMUNITY</span>
       <h1>Are you  ready to connect with the future talent of the tech world</h1>
       <p>Meet Up With Other Techstars And Grow Together</p>
       <img alt="img" src={Comm} />
