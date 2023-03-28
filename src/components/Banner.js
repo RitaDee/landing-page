@@ -7,12 +7,14 @@ import GirlImg from '../Images/Girl.png';
 import user from '../Images/user.png';
 import preview from '../Images/previews.png';
 import mark from '../Images/mark.png';
-import './Banner.css'; // Import custom styles
+import '../styles/Banner.css';
 
 const Banner = () => (
   <div className="bg-primary">
     <Container>
-      <Row className="px-md-5">
+      <Row className="px-md-5 mt-3">
+        {' '}
+        {/* Add mt-3 class to add margin top */}
         <Col md={6}>
           <h2>Grow your skills to advance your career path</h2>
           <p>
@@ -30,7 +32,8 @@ const Banner = () => (
           <img alt="girl" src={GirlImg} />
         </Col>
       </Row>
-      <Row className="justify-content-between mt-4">
+
+      <Row className="justify-content-between mt-3">
         <Col>
           <img alt="user" src={user} />
         </Col>
