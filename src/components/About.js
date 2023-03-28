@@ -2,6 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Container } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Audio from '../Images/volume_up.png';
 import antenna from '../Images/antenna.png';
@@ -72,7 +73,7 @@ const About = () => (
       </p>
       <Card.Img variant="top" src={Unsplash} alt="Image" />
     </div>
-     <Container>
+    <Container>
       <Row>
         <Col md={6}>
           <Card>
