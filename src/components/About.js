@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Card, Row, Col, Button,
 } from 'react-bootstrap/Card';
+import '../styles/About.css';
 
 const About = () => (
   <div>
