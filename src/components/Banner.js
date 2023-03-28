@@ -14,7 +14,6 @@ const Banner = () => (
     <Container>
       <Row className="px-md-5 mt-3">
         {' '}
-        {/* Add mt-3 class to add margin top */}
         <Col md={6}>
           <h2>Grow your skills to advance your career path</h2>
           <p>
