@@ -72,6 +72,44 @@ const About = () => (
       </p>
       <Card.Img variant="top" src={Unsplash} alt="Image" />
     </div>
+     <Container>
+      <Row>
+        <Col md={6}>
+          <Card>
+            <Card.Body>
+              <Card.Title>Card 1</Card.Title>
+              <Card.Text>Some text for Card 1.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6}>
+          <Card>
+            <Card.Body>
+              <Card.Title>Card 2</Card.Title>
+              <Card.Text>Some text for Card 2.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+      <Row>
+        <Col md={6}>
+          <Card>
+            <Card.Body>
+              <Card.Title>Card 3</Card.Title>
+              <Card.Text>Some text for Card 3.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col md={6}>
+          <Card>
+            <Card.Body>
+              <Card.Title>Card 4</Card.Title>
+              <Card.Text>Some text for Card 4.</Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+      </Row>
+    </Container>
   </div>
 );
 
