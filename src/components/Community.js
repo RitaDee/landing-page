@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Comm from '../Images/community.png';
+// import Comm from '../Images/community.png';
 import '../styles/Community.css';
 
 const Community = () => (
