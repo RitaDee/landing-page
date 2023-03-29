@@ -5,10 +5,11 @@ import Client from './components/Client';
 import About from './components/About';
 import Community from './components/Community';
 import './App.css';
-import Courses from './components/Courses';
 import Testimonial from './components/Testimonial';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import Courses from './components/Courses';
+
 const App = () => (
   <>
     <CustomNavbar />
