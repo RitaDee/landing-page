@@ -1,0 +1,652 @@
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
+
+@font-face {
+  font-family: "AmazingKids";
+  src: local("AssistantRegular"),
+    url("./fonts/Amazing\ Kids.ttf") format("truetype");
+  font-weight: normal;
+}
+
+body {
+  font-family: "Satoshi", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+  background: #f8f9fc;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.image-fluid {
+  width: 100%;
+}
+
+h2 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 70px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+#header {
+  background: #004db3;
+}
+
+.banner-heading {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+.banner-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #e7e7e7;
+}
+
+.banner-actions button:nth-child(1) {
+  background: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-right: 2rem;
+}
+
+.banner-actions button:nth-child(2) {
+  padding: 16px 32px;
+  background: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #004db3;
+}
+
+.client-container {
+  background: #ccdbf0;
+  padding: 2rem 10rem;
+}
+
+.about-image {
+  position: relative;
+}
+
+.image-float {
+  position: relative;
+  bottom: 10em;
+  right: 40%;
+}
+
+#about {
+  padding: 5rem 0;
+}
+
+#about button.view-btn {
+  padding: 16px 32px;
+  background: #004db3;
+  border-radius: 4px;
+}
+
+.about-actions div {
+  display: flex;
+  margin: 2rem 0;
+}
+
+#about .about-actions button {
+  padding: 20px 56px 20px 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  color: #000f24;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  border: none;
+}
+
+.about-actions button img {
+  margin-right: 1em;
+}
+
+.about-card {
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.about-card p {
+  font-size: 12px;
+}
+
+.about-card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin: 1rem 0;
+}
+
+#courses h2 {
+  text-align: center;
+}
+
+.courses-tab {
+  margin: 56px 0;
+}
+
+.courses-tab a {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+.courses-tab a:nth-child(1) {
+  padding: 12px 16px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #004db3;
+}
+
+#courses .card-title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #000f24;
+  margin: 28px 0 18px;
+}
+
+.badge {
+  padding: 4px 20px;
+  background: rgba(30, 93, 206, 0.2) !important;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+  color: #1e5dce;
+}
+
+.card-likes {
+  float: right;
+}
+
+#courses .card {
+  border: none;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+#courses .card-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #a1a1a1;
+}
+
+#courses .author {
+  display: flex;
+  justify-content: space-between;
+}
+
+#courses .author span:nth-child(1) {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+#courses .author span:nth-child(2) {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: capitalize;
+  color: #004db3;
+}
+
+#courses .card-text img {
+  margin-right: 1rem;
+}
+
+.explore-btn {
+  padding: 16px 32px;
+  background: #004db3;
+  border-radius: 4px;
+  width: 209px;
+}
+
+#testimonial .card-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+.card_footer {
+  display: flex;
+  align-items: center;
+}
+
+.card_footer span {
+  display: block;
+}
+
+#testimonial {
+  padding: 80px 0 40px;
+}
+
+#testimonial .card {
+  border: none;
+  border-radius: 24px;
+}
+
+#testimonial .name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+#testimonial .title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+#testimonial .footer_image {
+  margin-right: 8px;
+}
+
+.test-sec {
+  padding: 48px 0 40px;
+}
+
+.community-header {
+  text-align: center;
+}
+
+#community {
+  background-color: #004db3;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7jSsKnsEP18O0OVmANhwB--1j7oJ1a5phA&usqp=CAU");
+  box-shadow: inset 0 0 0 1000px rgba(1, 39, 87, 0.9);
+  background-position: center center;
+  background-size: contain;
+  padding: 86px 0 98px;
+}
+
+#community button {
+  padding: 16px 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #004db3;
+  font-weight: 700;
+}
+
+#faq {
+  padding: 80px 0;
+}
+
+.faq-container {
+  margin-top: 82px;
+}
+
+.list-group-item {
+  background: #f8f9fc;
+  border: 1px solid #eaeaea;
+  padding: 32px 0;
+}
+
+.list-group-item p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #a2a2a2;
+}
+
+.list-group-item h4 {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #000f24;
+}
+
+.list-group .list-group-item:nth-child(1) h4 {
+  color: #004db3;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex img {
+  height: 10px;
+}
+
+.flex .remove {
+  height: 2px;
+}
+
+.logo {
+  font-family: AmazingKids, inherit auto;
+  color: #fff;
+}
+
+#footer {
+  background: #000f24;
+  padding: 166px 100px;
+}
+
+#footer h4 {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#footer ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#footer ul li {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: capitalize;
+  color: #ffffff;
+  margin-top: 16px;
+}
+
+#footer p {
+  font-family: "Satoshi";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#footer input {
+  padding: 16px;
+  background: #2a2a2b;
+  border: 1px solid #054fb3;
+  border-radius: 2px 0px 0px 2px;
+  /* width: 263px; */
+}
+
+#footer button {
+  font-family: "Satoshi";
+  flex-direction: row;
+  padding: 16px;
+  background: #054fb3;
+  border-radius: 0px 2px 2px 0px;
+  border: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+#footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer .social-icons img {
+  height: 30px;
+}
+
+.mobile-hero {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("../src/Images/icons/menu.png");
+  }
+
+  .banner-heading {
+    font-size: 32px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .banner-caption {
+    font-size: 8px;
+    line-height: 15px;
+    text-align: center;
+  }
+
+  .banner-actions {
+    text-align: center;
+  }
+
+  #header .flex-center {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #header .flex-center > div {
+    text-align: center;
+  }
+
+  .desktop-hero {
+    display: none;
+  }
+
+  .mobile-hero {
+    display: block;
+    margin-top: 10em;
+  }
+
+  .mark-image img {
+    position: absolute;
+    right: 5em;
+    height: 100px;
+    transform: rotateY(150deg);
+  }
+
+  .client-container {
+    padding: 0.5rem;
+  }
+
+  .client-container img {
+    width: 100%;
+  }
+
+  #about {
+    text-align: center;
+  }
+
+  div.about-actions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.about-image img {
+    width: 265px;
+  }
+
+  div.image-float img {
+    width: 174px;
+  }
+
+  div.about-image {
+    padding-left: 106.56px;
+  }
+
+  div.about-actions > div {
+    margin-left: auto;
+  }
+
+  div.about-actions button {
+    padding: 11px 41px !important;
+    font-size: 8px;
+    line-height: 11px;
+  }
+
+  div.about-actions button span img {
+    height: 17px;
+  }
+
+  .about-row-container {
+    margin-top: 32px;
+  }
+
+  .niche-padding {
+    padding: 0 12px;
+  }
+
+  .about-card p {
+    font-size: 8px;
+    line-height: 16px;
+    text-transform: capitalize;
+  }
+
+  #about .card {
+    text-align: start;
+  }
+
+  .about-actions div {
+    margin: 0.8rem 0;
+  }
+
+  .courses-tab a:nth-child(1) {
+    padding: 4px 8px;
+    background: #ffffff;
+    border-radius: 2px;
+    font-size: 8px;
+    line-height: 11px;
+    display: flex;
+    align-items: center;
+  }
+
+  .courses-tab a {
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 11px;
+    text-transform: capitalize;
+  }
+
+  #courses .card-title {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  #courses .arrange {
+    font-weight: 500;
+    font-size: 4px;
+    line-height: 5px;
+  }
+
+  .explore-btn {
+    margin: 0 auto;
+  }
+
+  .list-group-item h4 {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .list-group-item p {
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 16px;
+  }
+
+  .list-group-item {
+    padding: 24px 0;
+  }
+
+  #courses .card {
+    padding: 8px;
+  }
+
+  .author .span-image {
+    display: flex;
+  }
+
+  #faq {
+    padding: 0 17px;
+    margin: 40px 0;
+  }
+
+  .faq-container {
+    margin-top: 0;
+  }
+
+  #footer {
+    padding: 40px 16px;
+  }
+
+  #footer h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #footer ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

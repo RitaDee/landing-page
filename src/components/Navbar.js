@@ -9,6 +9,7 @@ import mobile from '../Images/mobilehero.png';
 import user from '../Images/user.png';
 import preview from '../Images/previews.png';
 import mark from '../Images/mark.png';
+
 function CustomNavbar() {
   return (
     <header id="header">
