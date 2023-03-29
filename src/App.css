@@ -1,16 +1,16 @@
-@import url('https://fonts.cdnfonts.com/css/satoshi');
-@import url('https://fonts.cdnfonts.com/css/clash-display');
+ /* stylelint-disable */
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+@import url("https://fonts.cdnfonts.com/css/clash-display");
 
 @font-face {
   font-family: "AmazingKids";
-  src:
-    local("AssistantRegular"),
+  src: local("AssistantRegular"),
     url("./fonts/Amazing\ Kids.ttf") format("truetype");
   font-weight: normal;
 }
 
 body {
-  font-family: 'Satoshi', sans-serif;
+  font-family: "Satoshi", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
@@ -28,7 +28,7 @@ body {
 }
 
 h2 {
-  font-family: 'Clash Display', sans-serif;
+  font-family: "Clash Display";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -42,13 +42,13 @@ h2 {
 }
 
 .banner-heading {
-  font-family: 'Clash Display', serif;
+  font-family: "Clash Display";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 82px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
 }
 
 .banner-caption {
@@ -61,7 +61,7 @@ h2 {
 
 .banner-actions button:nth-child(1) {
   background: rgba(0, 0, 0, 0);
-  border: 1px solid #fff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   padding: 16px 32px;
   margin-right: 2rem;
@@ -69,7 +69,7 @@ h2 {
 
 .banner-actions button:nth-child(2) {
   padding: 16px 32px;
-  background: #fff;
+  background: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 22px;
@@ -109,7 +109,7 @@ h2 {
 
 #about .about-actions button {
   padding: 20px 56px 20px 24px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 8px;
   color: #000f24;
   display: flex;
@@ -136,7 +136,7 @@ h2 {
   font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
-  color: #000;
+  color: #000000;
   margin: 1rem 0;
 }
 
@@ -158,13 +158,13 @@ h2 {
 
 .courses-tab a:nth-child(1) {
   padding: 12px 16px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 4px;
   color: #004db3;
 }
 
 #courses .card-title {
-  font-family: 'Clash Display', serif;
+  font-family: "Clash Display";
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -215,11 +215,11 @@ h2 {
   font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
-  color: #000;
+  color: #000000;
 }
 
 #courses .author span:nth-child(2) {
-  font-family: 'Clash Display', serif;
+  font-family: "Clash Display";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -246,6 +246,15 @@ h2 {
   text-transform: capitalize;
 }
 
+.card_footer {
+  display: flex;
+  align-items: center;
+}
+
+.card_footer span {
+  display: block;
+}
+
 #testimonial {
   padding: 80px 0 40px;
 }
@@ -259,7 +268,7 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  color: #000;
+  color: #000000;
 }
 
 #testimonial .title {
@@ -283,11 +292,19 @@ h2 {
 
 #community {
   background-color: #004db3;
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7jSsKnsEP18O0OVmANhwB--1j7oJ1a5phA&usqp=CAU');
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV7jSsKnsEP18O0OVmANhwB--1j7oJ1a5phA&usqp=CAU");
   box-shadow: inset 0 0 0 1000px rgba(1, 39, 87, 0.9);
   background-position: center center;
   background-size: contain;
   padding: 86px 0 98px;
+}
+
+#community button {
+  padding: 16px 32px;
+  background: #ffffff;
+  border-radius: 4px;
+  color: #004db3;
+  font-weight: 700;
 }
 
 #faq {
@@ -313,7 +330,7 @@ h2 {
 }
 
 .list-group-item h4 {
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -351,13 +368,13 @@ h2 {
 }
 
 #footer h4 {
-  font-family: 'Clash Display';
+  font-family: "Clash Display";
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
 }
 
 #footer ul {
@@ -370,41 +387,40 @@ h2 {
   font-size: 24px;
   line-height: 32px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
   margin-top: 16px;
 }
 
 #footer p {
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
 }
 
 #footer input {
   padding: 16px;
   background: #2a2a2b;
   border: 1px solid #054fb3;
-  border-radius: 2px 0 0 2px;
-
+  border-radius: 2px 0px 0px 2px;
   /* width: 263px; */
 }
 
 #footer button {
-  font-family: 'Satoshi';
+  font-family: "Satoshi";
   flex-direction: row;
   padding: 16px;
   background: #054fb3;
-  border-radius: 0 2px 2px 0;
+  border-radius: 0px 2px 2px 0px;
   border: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 19px;
   text-transform: capitalize;
-  color: #fff;
+  color: #ffffff;
 }
 
 #footer .social-icons {
@@ -421,7 +437,7 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
-  /* Tablets [601px -> 1200px] */
+  /*Tablets [601px -> 1200px]*/
 }
 
 @media only screen and (max-width: 600px) {
@@ -442,7 +458,7 @@ h2 {
   }
 
   .navbar-toggler-icon {
-    background-image: url('../src/Images/icons/menu.png');
+    background-image: url("../src/Images/icons/menu.png");
   }
 
   .banner-heading {
@@ -494,14 +510,6 @@ h2 {
 
   .client-container img {
     width: 100%;
-  }
-
-  #community button {
-    padding: 16px 32px;
-    background: #fff;
-    border-radius: 4px;
-    color: #004db3;
-    font-weight: 700;
   }
 
   #about {
@@ -563,7 +571,7 @@ h2 {
 
   .courses-tab a:nth-child(1) {
     padding: 4px 8px;
-    background: #fff;
+    background: #ffffff;
     border-radius: 2px;
     font-size: 8px;
     line-height: 11px;
@@ -576,15 +584,6 @@ h2 {
     font-size: 8px;
     line-height: 11px;
     text-transform: capitalize;
-  }
-
-  .card_footer {
-    display: flex;
-    align-items: center;
-  }
-
-  .card_footer span {
-    display: block;
   }
 
   #courses .card-title {
