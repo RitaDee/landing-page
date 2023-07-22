@@ -114,8 +114,6 @@ You can deploy this project using Heroku, Netlify or any free hosting platform
 
 ## 👥 Authors <a name="authors"></a>
 
-.
-
 👤 **Rita Nkem Daniel**
 
 - GitHub: [@RitaDee](https://github.com/RitaDee)
